@@ -792,12 +792,12 @@
             "{",
             "\t\"type\": \"range\",",
             "\t\"id\": \"$1\",",
-            "\t\"min\": \"$2\",",
-            "\t\"max\": \"$3\",",
-            "\t\"step\": \"$4\",",
+            "\t\"min\": $2,",
+            "\t\"max\": $3,",
+            "\t\"step\": $4,",
             "\t\"unit\": \"$5\",",
             "\t\"label\": \"$6\",",
-            "\t\"default\": \"$7\"",
+            "\t\"default\": $7",
             "},$8"
         ]
     },
@@ -836,6 +836,18 @@
             "},$4"
         ]
     },
+    "Shopify Schema collection list": {
+      "prefix": "_collection_list",
+      "body": [
+        "{",
+        "  \"type\": \"product_list\",",
+        "  \"id\": \"${1:id}\",",
+        "  \"label\": \"${1:label}\",",
+        "  \"limit\": ${1:limit}",
+        "}"
+      ],
+      "description": "Shopify Schema collection list"
+    },
     "Shopify Schema product dropdown": {
         "prefix": "_product",
         "body": [
@@ -846,6 +858,18 @@
             "\t\"info\": \"$3\"",
             "},$4"
         ]
+    },
+    "Shopify Schema product list": {
+      "prefix": "_product_list",
+      "body": [
+        "{",
+        "  \"type\": \"product_list\",",
+        "  \"id\": \"${1:id}\",",
+        "  \"label\": \"${1:label}\",",
+        "  \"limit\": ${1:limit}",
+        "}"
+      ],
+      "description": "Shopify Schema product list"
     },
     "Shopify Schema blog dropdown": {
         "prefix": "_blog",
@@ -893,6 +917,17 @@
     },
     "Shopify Schema video": {
         "prefix": "_video",
+        "body": [
+            "{",
+            "\t\"type\": \"video\",",
+            "\t\"id\": \"$1\",",
+            "\t\"label\": \"$2\",",
+            "\t\"info\": \"$3\",",
+            "},$4"
+        ]
+    },
+    "Shopify Schema video_url": {
+        "prefix": "_video_url",
         "body": [
             "{",
             "\t\"type\": \"video_url\",",
@@ -955,6 +990,53 @@
             "\t\"type\": \"paragraph\",",
             "\t\"content\": \"$1\"",
             "},$2"
+        ]
+    },
+    "Shopify Schema number": {
+        "prefix": "_number",
+        "body": [
+            "{",
+            "\t\"type\": \"number\",",
+            "\t\"id\": \"$1\",",
+            "\t\"label\": \"$2\",",
+            "\t\"default\": $3,",
+            "\t\"info\": \"$4\",",
+            "\t\"placeholder\": \"$5\"",
+            "},$6"
+        ]
+    },
+    "Shopify Schema color_background": {
+        "prefix": "_color_background",
+        "body": [
+            "{",
+            "\t\"type\": \"color_background\",",
+            "\t\"id\": \"$1\",",
+            "\t\"label\": \"$2\",",
+            "\t\"default\": \"$3\",",
+            "\t\"info\": \"$4\"",
+            "},$5"
+        ]
+    },
+    "Shopify Schema inline_richtext": {
+        "prefix": "_inline_richtext",
+        "body": [
+            "{",
+            "\t\"type\": \"inline_richtext\",",
+            "\t\"id\": \"$1\",",
+            "\t\"label\": \"$2\",",
+            "\t\"default\": \"<p>$3<\/p>\"",
+            "},$4"
+        ]
+    },
+    "Shopify Schema liquid": {
+        "prefix": "_liquid",
+        "body": [
+            "{",
+            "\t\"type\": \"liquid\",",
+            "\t\"id\": \"$1\",",
+            "\t\"label\": \"$2\",",
+            "\t\"default\": \"$3\"",
+            "},$4"
         ]
     }
 }

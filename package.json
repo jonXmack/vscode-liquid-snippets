@@ -1,7 +1,7 @@
 {
-    "name": "vscode-liquid-snippets",
-    "version": "2.0.3",
-    "publisher": "killalau",
+    "name": "liquid-snippets",
+    "version": "2.0.4",
+    "publisher": "jonxmack",
     "displayName": "Shopify Liquid Template Snippets",
     "description": "Shopify Liquid Template snippets",
     "icon": "images/shopify-icon.png",
@@ -21,12 +21,12 @@
         "shopify"
     ],
     "license": "SEE LICENSE IN LICENSE.txt",
-    "homepage": "https://github.com/killalau/vscode-liquid-snippets",
+    "homepage": "https://github.com/jonxmack/vscode-liquid-snippets",
     "repository": {
         "type": "git",
-        "url": "https://github.com/killalau/vscode-liquid-snippets.git"
+        "url": "https://github.com/jonxmack/vscode-liquid-snippets.git"
     },
-    "bugs": "https://github.com/killalau/vscode-liquid-snippets/issues",
+    "bugs": "https://github.com/jonxmack/vscode-liquid-snippets/issues",
     "contributes": {
         "snippets": [
             {
