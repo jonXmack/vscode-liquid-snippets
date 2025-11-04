@@ -32,6 +32,14 @@
             {
                 "language": "liquid",
                 "path": "./snippets/liquid.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/json.json"
+            },
+            {
+                "language": "jsonc",
+                "path": "./snippets/json.json"
             }
         ]
     }
