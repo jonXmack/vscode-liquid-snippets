@@ -39,6 +39,8 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
+The extension will work within `*.liquid` and `*.json` files, the latter being useful for `settings_schema.json`
+
 ### Comment Tag
 
 ```
@@ -126,17 +128,24 @@ _range
 _color
 _font
 _collections
+_collection_list
 _product
+_product_list
 _blog
 _page
 _link_list
 _url
 _video
+_video_url
 _richtext
 _html
 _article
 _header
 _paragraph
+_number
+_color_background
+_inline_richtext
+_liquid
 _blocks
 ```
 
@@ -228,6 +237,12 @@ img_url
 ```
 
 ## Release
+
+### 2.0.4
+
+- Fork from existing repo
+- Copy changes from existing PR's
+- Add dimensions to image and video fields
 
 ### 2.0.3
 

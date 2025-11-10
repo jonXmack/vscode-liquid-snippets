@@ -1,46 +1,46 @@
 {
-    "name": "liquid-snippets",
-    "version": "2.0.4",
-    "publisher": "jonxmack",
-    "displayName": "Shopify Liquid Template Snippets",
-    "description": "Shopify Liquid Template snippets",
-    "icon": "images/shopify-icon.png",
-    "galleryBanner": {
-        "color": "#30373b",
-        "theme": "dark"
-    },
-    "engines": {
-        "vscode": "0.10.x"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "snippets",
-        "liquid",
-        "shopify"
-    ],
-    "license": "SEE LICENSE IN LICENSE.txt",
-    "homepage": "https://github.com/jonxmack/vscode-liquid-snippets",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jonxmack/vscode-liquid-snippets.git"
-    },
-    "bugs": "https://github.com/jonxmack/vscode-liquid-snippets/issues",
-    "contributes": {
-        "snippets": [
-            {
-                "language": "liquid",
-                "path": "./snippets/liquid.json"
-            },
-            {
-                "language": "json",
-                "path": "./snippets/json.json"
-            },
-            {
-                "language": "jsonc",
-                "path": "./snippets/json.json"
-            }
-        ]
-    }
+  "name": "liquid-snippets",
+  "version": "2.0.4",
+  "publisher": "jonxmack",
+  "displayName": "Shopify Liquid Template Snippets",
+  "description": "Shopify Liquid Template snippets",
+  "icon": "images/shopify-icon.png",
+  "galleryBanner": {
+    "color": "#30373b",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "snippets",
+    "liquid",
+    "shopify"
+  ],
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "homepage": "https://github.com/jonxmack/vscode-liquid-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonxmack/vscode-liquid-snippets.git"
+  },
+  "bugs": "https://github.com/jonxmack/vscode-liquid-snippets/issues",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "liquid",
+        "path": "./snippets/liquid.json"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/json.json"
+      },
+      {
+        "language": "jsonc",
+        "path": "./snippets/json.json"
+      }
+    ]
+  }
 }
