@@ -2,8 +2,8 @@
   "name": "liquid-snippets",
   "version": "2.0.4",
   "publisher": "jonxmack",
-  "displayName": "Shopify Liquid Template Snippets",
-  "description": "Shopify Liquid Template snippets",
+  "displayName": "Shopify Liquid + JSON Snippets",
+  "description": "Useful snippets for Shopify liquid and JSON files",
   "icon": "images/shopify-icon.png",
   "galleryBanner": {
     "color": "#30373b",
