@@ -238,10 +238,16 @@ img_url
 
 ## Release
 
+### 2.0.5
+
+- Typo in readme
+
 ### 2.0.4
 
 - Fork from existing repo
 - Copy changes from existing PR's
+- Add support for collection_list, product_list, number, color_background, inline_richtext, liquid
+- Add support for json files
 - Add dimensions to image and video fields
 
 ### 2.0.3
