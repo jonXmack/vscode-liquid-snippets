@@ -185,7 +185,12 @@
   "Tag javascript": {
     "prefix": "javascript",
     "description": "Javascript tag: javascript",
-    "body": ["{% javascript %}", "\t$4", "{% endjavascript %}"]
+    "body": ["{% javascript %}", "\t$1", "{% endjavascript %}"]
+  },
+  "Tag doc": {
+    "prefix": "doc",
+    "description": "Doc tag: doc",
+    "body": ["{% doc %}", "\t$1", "{% enddoc %}"]
   },
   "Tag comment, whitespaced": {
     "prefix": "comment-",
@@ -282,6 +287,11 @@
     "prefix": "capture-",
     "description": "Variable tag: capture, whitespaced",
     "body": ["{%- capture ${1:variable} -%}$2{%- endcapture -%}"]
+  },
+  "Tag doc, whitespaced": {
+    "prefix": "doc-",
+    "description": "Doc tag: doc",
+    "body": ["{%- doc -%}", "\t$1", "{%- enddoc -%}"]
   },
   "Filter join": {
     "prefix": "join",

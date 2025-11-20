@@ -4,7 +4,7 @@ This extension for Visual Studio Code adds snippets for Shopify Liquid Template.
 
 The original work was done by [Franky Lau](https://github.com/killalau) however it hasn't been updated since July 2021 and since then Shopify has added a number of additional features.
 
-Visual Studio Marketplace link: [https://marketplace.visualstudio.com/items?itemName=jonxmack.vscode-liquid-snippets](https://marketplace.visualstudio.com/items?itemName=jonxmack.vscode-liquid-snippets)
+Visual Studio Marketplace link: [https://marketplace.visualstudio.com/items?itemName=jonxmack.liquid-snippets](https://marketplace.visualstudio.com/items?itemName=jonxmack.liquid-snippets)
 
 ## Preview
 
@@ -40,12 +40,6 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
 The extension will work within `*.liquid` and `*.json` files, the latter being useful for `settings_schema.json`
-
-### Comment Tag
-
-```
-comment- // whitespace stripped
-```
 
 ### Control Flow Tag
 
@@ -111,7 +105,9 @@ paginate
 schema
 stylesheet
 stylesheet_scss
-
+comment- // whitespace stripped
+doc
+doc- // whitespace stripped
 ```
 
 ### Schema Tag
@@ -238,7 +234,11 @@ img_url
 
 ## Release
 
-### 2.0.5
+### 2.2.0
+
+- Added support for doc tags
+
+### 2.1.0
 
 - Typo in readme
 
